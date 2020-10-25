@@ -1,0 +1,24 @@
+*_pycache_*
+
+# Compiled python modules
+*.pyc
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyproject/
+
+# Tests
+.pytest_cache/
+
+# In case a source distribution is created
+/dist/
+/build/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+/*.egg
+
+# Temp files for flask app
+xr_tools_web/tmp_files
