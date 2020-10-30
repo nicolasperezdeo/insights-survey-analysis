@@ -3,7 +3,8 @@ import survey_analysis_tool
 
 
 def define_args():
-    install_requirements = ['setuptools>=40.3,<49.2', 'numpy>=1.16,<2.0', 'matplotlib>=3.0.1,<3.2.1', 'scikit-image']
+    install_requirements = ['setuptools>=40.3,<49.2', 'numpy>=1.16,<2.0', 'matplotlib>=3.0.1,<3.2.1', 'scikit-image',
+                            'pandas', 'xlrd >= 1.0']
 
     test_requirements = ['pytest>=4.3,<4.4', 'pytest-cov>=2.7,<2.8']
     args = {
