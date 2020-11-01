@@ -12,6 +12,9 @@
 # Tests
 .pytest_cache/
 
+# Log files
+/log_files
+
 # In case a source distribution is created
 /dist/
 /build/
